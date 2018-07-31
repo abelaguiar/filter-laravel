@@ -4,7 +4,6 @@ namespace AbelAguiar\Filter\Commands;
 
 use Illuminate\Support\Str;
 use Illuminate\Console\GeneratorCommand;
-use Symfony\Component\Console\Input\InputOption;
 
 class FieldFilterMakeCommand extends GeneratorCommand
 {

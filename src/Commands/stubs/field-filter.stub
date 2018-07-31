@@ -1,0 +1,11 @@
+<?php
+
+namespace DummyNamespace;
+
+class DummyClass
+{
+    public function filter($builder, $value)
+    {
+        return $builder->where('Field', $value);
+    }
+}

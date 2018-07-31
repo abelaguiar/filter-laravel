@@ -1,0 +1,27 @@
+{
+    "name": "abelaguiar/filter-laravel",
+    "description": "Make filters in laravel",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Abel Aguiar",
+            "email": "abel.prog@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "AbelAguiar\\Filter\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "AbelAguiar\\Filter\\FilterServiceProvider"
+            ]
+        }
+    }
+}

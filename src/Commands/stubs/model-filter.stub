@@ -1,0 +1,10 @@
+<?php
+
+namespace DummyNamespace;
+
+use AbelAguiar\Filter\AbstractFilter;
+
+class DummyClass extends AbstractFilter
+{
+    protected $filters = [];
+}

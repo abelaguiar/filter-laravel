@@ -2,6 +2,8 @@
     "name": "abelaguiar/filter-laravel",
     "description": "Make filters in laravel",
     "type": "library",
+    "keywords": ["filter", "laravel"],
+    "license": "MIT",
     "authors": [
         {
             "name": "Abel Aguiar",

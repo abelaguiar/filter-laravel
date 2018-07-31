@@ -15,11 +15,18 @@ class FieldFilterMakeCommand extends GeneratorCommand
     protected $name = 'filter:field';
 
     /**
+     * The name and signature of the console command.
+     *
+     * @var string
+     */
+    protected $signature = 'filter:field {ClassField}';
+
+    /**
      * The console command description.
      *
      * @var string
      */
-    protected $description = 'Create a new Eloquent filter field class';
+    protected $description = 'Create a new field filter class';
 
     /**
      * The type of class being generated.

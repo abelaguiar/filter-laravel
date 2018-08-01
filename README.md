@@ -1,7 +1,7 @@
 # Filters in laravel
 
 
-[![PHP from Packagist](https://img.shields.io/packagist/php-v/abelaguiar/filter-laravel.svg)](https://packagist.org/packages/abelaguiar/filter-laravel) [![Packagist](https://img.shields.io/packagist/l/abelaguiar/filter-laravel.svg)](https://packagist.org/packages/abelaguiar/filter-laravel) [![Packagist](https://img.shields.io/packagist/vpre/abelaguiar/filter-laravel.svg)](https://packagist.org/packages/abelaguiar/filter-laravel)
+[![PHP from Packagist](https://img.shields.io/packagist/php-v/abelaguiar/filter-laravel.svg)](https://packagist.org/packages/abelaguiar/filter-laravel) [![Packagist](https://img.shields.io/packagist/l/abelaguiar/filter-laravel.svg)](https://packagist.org/packages/abelaguiar/filter-laravel) [![Packagist](https://img.shields.io/packagist/vpre/abelaguiar/filter-laravel.svg)](https://packagist.org/packages/abelaguiar/filter-laravel) [![Build Status](https://travis-ci.org/abelaguiar/filter-laravel.svg?branch=master)](https://travis-ci.org/abelaguiar/filter-laravel)
 
 The `abelaguiar/filter-laravel` package provides easy to use functions to simples filters in laravel.
 

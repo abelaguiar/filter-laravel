@@ -35,7 +35,7 @@ class ModelFieldMakeCommand extends GeneratorCommand
      */
     protected $type = 'Filter';
 
-     /**
+    /**
      * Build the class with the given name.
      *
      * @param  string  $name

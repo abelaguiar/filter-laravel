@@ -17,9 +17,8 @@ abstract class AbstractFilter
     }
 
     public function filter(Builder $builder)
-    {   
-        foreach($this->getFilters() as $filter => $value)
-        {
+    {
+        foreach ($this->getFilters() as $filter => $value) {
             $this->resolveFilter($filter)->filter($builder, $value);
         }
 

@@ -29,13 +29,13 @@ When creating a filter, inside the class we have an array, where you will put th
 Example filter class with fields implemention:
 
 ```php
-use App\Filters\Fields\NameField;
+use App\Filters\Fields\TitleField;
 use AbelAguiar\Filter\AbstractFilter;
 
 class PostClass extends AbstractFilter
 {
     protected $filters = [
-        'name' => NameField::class
+        'title' => TitleField::class
     ];
 }
 ```
@@ -43,11 +43,11 @@ class PostClass extends AbstractFilter
 Example field class:
 
 ```php
-class NameField
+class TitleField
 {
     public function filter($builder, $value)
     {
-        return $builder->where('name', $value);
+        return $builder->where('title', $value);
     }
 }
 ```
@@ -57,7 +57,7 @@ Created the filters, in the model that you want to connect filters, you will put
 ```php
 use AbelAguiar\Filter\RequestFilter;
 
-class Model
+class Post
 {
     use RequestFilter;
 

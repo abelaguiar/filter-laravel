@@ -15,13 +15,6 @@ class ModelFieldMakeCommand extends GeneratorCommand
     protected $name = 'filter:model';
 
     /**
-     * The name and signature of the console command.
-     *
-     * @var string
-     */
-    protected $signature = 'filter:model {ClassFilter}';
-
-    /**
      * The console command description.
      *
      * @var string

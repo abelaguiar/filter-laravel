@@ -60,8 +60,13 @@ use AbelAguiar\Filter\RequestFilter;
 class Post
 {
     use RequestFilter;
+...
+```
 
-    protected static $filterClass = 'App\Filters\PostFilter';
+If you want to set up a different filter path, use the variable below within the model:
+
+```php
+protected static $filterClass = 'App\Filters\PostFilter';
 ...
 ```
 

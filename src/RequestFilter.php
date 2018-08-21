@@ -10,7 +10,7 @@ trait RequestFilter
 
     public function __construct()
     {
-        if(isset(self::$filter) && !empty(self::$filter)) {
+        if (isset(self::$filter) && !empty(self::$filter)) {
             $this->filterClass = self::$filter;
         } else {
             $this->filterClass = $this->getClassNameFilter();

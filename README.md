@@ -66,7 +66,7 @@ class Post
 If you want to set up a different filter path, use the variable below within the model:
 
 ```php
-protected static $filterClass = 'App\Filters\PostFilter';
+protected static $filter = 'App\Filters\PostFilter';
 ...
 ```
 

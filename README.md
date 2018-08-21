@@ -40,7 +40,7 @@ class PostClass extends AbstractFilter
 }
 ```
 
-Example field class:
+Example fields class:
 
 ```php
 class TitleField

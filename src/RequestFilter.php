@@ -8,17 +8,14 @@ trait RequestFilter
 {
     protected $filterClass;
 
-    public function __construct()
+    public function scopeFilter(Builder $builder, $request)
     {
         if (isset(self::$filter) && ! empty(self::$filter)) {
             $this->filterClass = self::$filter;
         } else {
             $this->filterClass = $this->getClassNameFilter();
         }
-    }
 
-    public function scopeFilter(Builder $builder, $request)
-    {
         return (new $this->filterClass($request))->filter($builder);
     }
 

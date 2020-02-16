@@ -13,10 +13,10 @@
     "minimum-stability": "dev", 
     "require": {
         "php": "^7.0",
-        "illuminate/http": "^5.3|^6.0",
-        "illuminate/support": "^5.3|^6.0",
-        "illuminate/console": "^5.3|^6.0",
-        "illuminate/database": "^5.3|^6.0"
+        "illuminate/http": "@dev",
+        "illuminate/support": "@dev",
+        "illuminate/console": "@dev",
+        "illuminate/database": "@dev"
     },
     "require-dev": {
         "phpunit/phpunit": "~4.0"
